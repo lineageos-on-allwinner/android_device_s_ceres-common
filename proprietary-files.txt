@@ -1,0 +1,128 @@
+# All unpinned blobs below are extracted from T8100-user 10 QP1A.191105.004 bnd_xnq07211222 release-keys
+
+# Audio
+vendor/lib/hw/audio.primary.ceres.so
+
+# Bluetooth
+vendor/etc/bluetooth/bt_vendor.conf
+vendor/etc/init/init.wireless.bluetooth.rc
+vendor/lib/libbt-vendor.so
+
+# Camera
+vendor/lib/hw/camera.ceres.so
+
+# Display
+vendor/bin/pvrsrvctl
+vendor/etc/init/init.display.rc
+vendor/etc/init/init.gpu.property.rc
+vendor/etc/vintf/manifest/vendor.display.config@1.0.xml
+vendor/lib/egl/libEGL_POWERVR_ROGUE.so
+vendor/lib/egl/libGLESv1_CM_POWERVR_ROGUE.so
+vendor/lib/egl/libGLESv2_POWERVR_ROGUE.so
+vendor/lib/hw/gralloc.ceres.so
+vendor/lib/hw/hwcomposer.ceres.so
+vendor/lib/hw/memtrack.ceres.so
+vendor/lib/hw/vulkan.ceres.so
+vendor/lib/libdisplayconfig.so
+vendor/lib/libglslcompiler.so
+vendor/lib/libIMGegl.so
+vendor/lib/libsrv_um.so
+vendor/lib/libufwriter.so
+vendor/lib/libusc.so
+vendor/lib/vendor.display.config@1.0-impl.so
+vendor/lib/vendor.display.config@1.0.so
+
+# Firmware
+vendor/etc/firmware/boot_xr829.bin
+vendor/etc/firmware/bt_sdd.bin
+vendor/etc/firmware/etf_xr829.bin
+vendor/etc/firmware/fw_xr829.bin
+vendor/etc/firmware/fw_xr829_bt.bin
+vendor/etc/firmware/sdd_xr829.bin
+vendor/firmware/rgx.fw.22.102.54.38
+
+# Gatekeeper
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service-aw
+vendor/etc/init/android.hardware.gatekeeper@1.0-service-aw.rc
+vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-aw.so
+vendor/lib/hw/gatekeeper.ceres.so
+vendor/lib/hw/gatekeeper.soft.ceres.so
+
+# ISP
+vendor/lib/libAWIspApi.so
+vendor/lib/libisp_ini.so
+vendor/lib/libisp.so
+
+# Keymaster
+vendor/bin/hw/android.hardware.keymaster@4.0-service-aw
+vendor/etc/init/android.hardware.keymaster@4.0-service-aw.rc
+vendor/etc/vintf/manifest/keymaster-aw@4.0.xml
+vendor/lib/libkeymaster4_ca_aw.so
+
+# Lights
+vendor/lib/hw/lights.ceres.so
+
+# Listen
+vendor/lib/hw/sound_trigger.primary.ceres.so
+
+# Media
+vendor/lib/libawavs2.so
+vendor/lib/libawavs.so
+vendor/lib/libawh264.so
+vendor/lib/libawh265.so
+vendor/lib/libawh265soft.so
+vendor/lib/libawmjpegplus.so
+vendor/lib/libawmjpeg.so
+vendor/lib/libawmpeg2.so
+vendor/lib/libawmpeg4base.so
+vendor/lib/libawmpeg4dx.so
+vendor/lib/libawmpeg4h263.so
+vendor/lib/libawmpeg4normal.so
+vendor/lib/libawmpeg4vp6.so
+vendor/lib/libawvp6soft.so
+vendor/lib/libawvp8.so
+vendor/lib/libawvp9HwAL.so
+vendor/lib/libawvp9Hw.so
+vendor/lib/libawvp9soft.so
+vendor/lib/libawwmv12soft.so
+vendor/lib/libawwmv3.so
+vendor/lib/libcdc_base.so
+vendor/lib/libMemAdapter.so
+vendor/lib/libOmxCore.so
+vendor/lib/libOmxVdec.so
+vendor/lib/libOmxVenc.so
+vendor/lib/libvdecoder.so
+vendor/lib/libvenc_base.so
+vendor/lib/libvenc_codec.so
+vendor/lib/libvencoder.so
+vendor/lib/libVE.so
+vendor/lib/libvideoengine.so
+
+# Power
+vendor/lib/hw/power.ceres.so
+
+# Sensors
+vendor/bin/hw/android.hardware.sensors@2.0-service
+vendor/etc/hawkview/sensor_list_cfg.ini
+vendor/etc/init/android.hardware.sensors@2.0-service.rc
+vendor/etc/vintf/manifest/sensors@2.0.xml
+vendor/etc/gsensor.cfg
+
+# TEE supplicant
+vendor/bin/hw/tee_supplicant
+vendor/etc/init/android.supplicant@2.5-optee.rc
+vendor/lib/optee_armtz/2233b43b-cec6-449a-9509469f5023e425.ta
+vendor/lib/optee_armtz/663d017b-102d-4fe0-c086523e1c754846.ta
+vendor/lib/libteec.so
+
+# Widevine
+vendor/bin/hw/android.hardware.drm@1.2-service-lazy.widevine
+vendor/etc/init/android.hardware.drm@1.2-service-lazy.widevine.rc
+vendor/lib/mediadrm/libwvdrmengine.so
+vendor/lib/libwvhidl.so
+
+# Wi-Fi
+vendor/lib/libwifi-hal.so
+
+# Wireless
+vendor/etc/init/init.wireless.property.rc

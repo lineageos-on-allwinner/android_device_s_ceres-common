@@ -1,0 +1,48 @@
+//
+// Copyright (C) 2022 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+// fstab
+prebuilt_etc {
+    name: "fstab.sun50iw10p1",
+    src: "etc/fstab.sun50iw10p1",
+    vendor: true,
+}
+
+// Init configuration files
+prebuilt_etc {
+    name: "init.common.rc",
+    src: "etc/init.common.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.device.rc",
+    src: "etc/init.device.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.sun50iw10p1.rc",
+    src: "etc/init.sun50iw10p1.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.sun50iw10p1.usb.rc",
+    src: "etc/init.sun50iw10p1.usb.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "ueventd.sun50iw10p1.rc",
+    filename: "ueventd.rc",
+    src: "etc/ueventd.sun50iw10p1.rc",
+    vendor: true,
+}

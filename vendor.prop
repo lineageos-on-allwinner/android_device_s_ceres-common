@@ -1,0 +1,53 @@
+# Audio
+ro.vendor.spk_dul.used=true
+
+# Display
+debug.sf.disable_backpressure=1
+debug.sf.latch_unsignaled=1
+ro.surface_flinger.primary_display_orientation=ORIENTATION_0
+ro.vendor.sf.rotation=90
+
+# Camera
+ro.camera.enableLazyHal=true
+
+# Crypto
+ro.crypto.volume.contents_mode=aes-256-xts
+ro.crypto.volume.filenames_mode=aes-256-cts
+
+# Dalvik
+dalvik.vm.boot-dex2oat-threads=4
+dalvik.vm.dex2oat-threads=3
+dalvik.vm.image-dex2oat-threads=4
+dalvik.vm.dex2oat-flags=--no-watch-dog
+dalvik.vm.heapstartsize=8m
+dalvik.vm.heapsize=512m
+dalvik.vm.heaptargetutilization=0.75
+dalvik.vm.heapminfree=512k
+dalvik.vm.heapmaxfree=8m
+dalvik.vm.jit.codecachesize=0
+
+# Display
+ro.hardware.egl=POWERVR_ROGUE
+
+# FRP
+ro.frp.pst=/dev/block/by-name/frp
+
+# Keystore
+ro.hardware.keystore_desede=true
+
+# Low RAM
+ro.config.low_ram=true
+
+# Low memory killer
+ro.lmk.downgrade_pressure=88
+ro.lmk.upgrade_pressure=50
+ro.lmk.use_minfree_levels=false
+ro.lmk.kill_heaviest_task=false
+ro.lmk.use_new_strategy=false
+
+# Radio
+ro.radio.noril=true
+ro.radio.noawril=false
+ro.vendor.sw.embeded.telephony=false
+vendor.rild.libargs=-d/dev/ttyUSB2
+vendor.rild.libpath=libsoftwinner-ril-10.0.so
