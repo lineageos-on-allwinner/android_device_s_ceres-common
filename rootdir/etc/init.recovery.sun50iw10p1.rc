@@ -1,0 +1,4 @@
+on early-init
+    setprop sys.usb.configfs 1
+    #insmod /hyn_cst2xx.ko
+    insmod /gslX680new.ko

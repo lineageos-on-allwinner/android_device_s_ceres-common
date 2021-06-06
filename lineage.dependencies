@@ -1,0 +1,6 @@
+[
+  {
+    "repository": "android_kernel_s_ceres",
+    "target_path": "kernel/s/ceres"
+  }
+]
