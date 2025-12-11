@@ -11,6 +11,11 @@ service bugreport /system/bin/dumpstate -d -p -B -z \
     oneshot
     keycodes 114 115 116
 
+service trigger_reboot /system/bin/reboot recovery
+    class main
+    disabled
+    oneshot
+    keycodes 114 115 116
 
 on property:sys.drop_cache=1
     write /proc/sys/vm/drop_caches 3
@@ -18,3 +23,12 @@ on property:sys.drop_cache=1
 
 on property:init.svc.vendor.charger=running
     chmod 660 /sys/power/wakeup_count
+
+service vendor.log_to_cache /system/bin/logcat -f /cache/logs/log.txt
+    user system
+    group system log
+    disabled
+
+on post-fs
+    mkdir /cache/logs 0775 system log
+    #start vendor.log_to_cache

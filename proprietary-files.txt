@@ -54,10 +54,10 @@ vendor/lib/libisp_ini.so
 vendor/lib/libisp.so
 
 # Keymaster
-vendor/bin/hw/android.hardware.keymaster@4.0-service-aw
-vendor/etc/init/android.hardware.keymaster@4.0-service-aw.rc
+#vendor/bin/hw/android.hardware.keymaster@4.0-service-aw
+#vendor/etc/init/android.hardware.keymaster@4.0-service-aw.rc
 vendor/etc/vintf/manifest/keymaster-aw@4.0.xml
-vendor/lib/libkeymaster4_ca_aw.so
+#vendor/lib/libkeymaster4_ca_aw.so
 
 # Lights
 vendor/lib/hw/lights.ceres.so

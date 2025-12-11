@@ -13,12 +13,12 @@ product                                                /product     ext4     ro,
 odm                                                    /odm         ext4     ro,barrier=1                 wait,first_stage_mount,logical
 system_ext                                             /system_ext  ext4     ro,barrier=1                 wait,first_stage_mount,logical
 
-/dev/block/by-name/UDISK                               /data        f2fs     noatime,nosuid,nodev,discard wait,check,formattable,quota,reservedsize=33554432,fileencryption=aes-256-xts:aes-256-cts
+/dev/block/by-name/UDISK                               /data        f2fs     noatime,nosuid,nodev,discard wait,check,formattable,quota,reservedsize=33554432
 /dev/block/by-name/cache                               /cache       ext4     noatime,nosuid,nodev,barrier=1,data=ordered,nomblk_io_submit,noauto_da_alloc,errors=panic wait,check,formattable
 /dev/block/by-name/metadata                            /metadata    ext4     nodev,noatime,nosuid,errors=panic wait,first_stage_mount,formattable
 /dev/block/by-name/frp                                 /persistent  emmc     defaults                     defaults
 
-/dev/block/zram0                                       none         swap     defaults                     zramsize=75%
+/dev/block/zram0                                       none         swap     defaults                     zramsize=50%
 
 /devices/platform/soc/sdc0/mmc_host/mmc*               auto         auto     defaults                     voldmanaged=extsd:auto,encryptable=footer
 /devices/platform/soc/usbc0/usb*                       auto         auto     defaults                     voldmanaged=usb:auto,encryptable=footer
